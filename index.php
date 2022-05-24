@@ -56,11 +56,6 @@ $faqs = [
 
 ];
 
-
-
-
-
-
 ?>
 
 
@@ -71,8 +66,7 @@ $faqs = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="style.css">
     <title>Google FAQ
 
@@ -91,7 +85,7 @@ $faqs = [
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-8">
+                <div class="col-12">
                     <div class="main-container">
                         <?php foreach ($faqs as $faq => $answer) :?>
                             <h2> <?php echo $faq ?></h2>
@@ -105,5 +99,24 @@ $faqs = [
         </div>
     </main>
     
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul>
+                        <li>Google</li>
+                        <li>Tutto su Google</li>
+                        <li>Privacy</li>
+                        <li>Termini</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
