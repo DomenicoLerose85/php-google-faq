@@ -59,17 +59,17 @@ ul{
 
 li{
   text-decoration: none;
-  color: rgb(172, 163, 163);
+  color: rgb(156, 148, 148);
   font-size: 12px;
   margin-left: 15px;
   margin-top: 15px;
 }
 
 select{
-    width: 100px;
+    width: 150px;
     display: flex;
     justify-content: end;
-    margin-left: 900px;
+    margin-left: 815px;
     margin-top: -32px;
 }
 
