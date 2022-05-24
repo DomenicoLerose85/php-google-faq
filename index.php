@@ -80,10 +80,30 @@ $faqs = [
 </head>
 <body>
     <header class="">
-        <h3>Domande Frequenti</h3>
-        <button>Accedi</button>
+        <div class="container-fluid">
+            <h3>Domande Frequenti</h3>
+            <button>Accedi</button>
+
+        </div>
 
     </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="main-container">
+                        <?php foreach ($faqs as $faq => $answer) :?>
+                            <h2> <?php echo $faq ?></h2>
+                            <?php foreach ($answer as $ans => $response_text) :?>
+                            <p> <?php echo $response_text ?></p>
+                            <?php endforeach; ?>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>
