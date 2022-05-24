@@ -113,7 +113,11 @@ $faqs = [
             </div>
             <div class="row">
                 <div class="col-12">
-                    
+                    <select name="Italiano" id="language">
+                        <option value="Italiano"></option>
+                        <option value="English"></option>
+                        <option value="Espanol"></option>
+                    </select>
                 </div>
             </div>
         </div>
